@@ -70,7 +70,7 @@ const PoolCard = () => (
         <div className="overflow-hidden h-[45px] poolCardDescription" >
           <div className="text-sm opacity-70">
             <p>
-              Drunk Robots is a play-to-earn game on the BNB Chain. Your mission is to survive and seize the city overrun by the drunk, junky robots whose only interests are metal beer and violence.
+              Avania is a game where you can earn a token by contributing your talent to the game such as playing the game, awaken nexus, building community, supporting other players, supporting the game, etc. Avania will be a place to build the greatest GameFi community through well-designed gameplay. The key factor that makes Avania different from other traditional online games is the “Play to Earn” concept that takes advantage of blockchain technology. Everyone in the world can enjoy the game while also experiencing a new way of making some income.
             </p>
           </div>
         </div>
