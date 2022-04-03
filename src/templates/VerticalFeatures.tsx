@@ -5,11 +5,15 @@ const VerticalFeatures = () => (
   <Section
     id ="about"
     title="Launch your project"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    description="The initial blockchains supported will be Ethereum & Binance Smart Chain.
+    The second release will allow supporting Cardano, Solana, and Polkadot via the Moonbeam Parachain.    
+    The final planned release will include Cosmos & Tron unless the community, through our governance system, has decided otherwise and will depend on the development of the ecosystems at the moment."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="MEET THE COOL TEAM"
+      description="
+      Supported by industry-leading decision makers
+      Ideas that launch on CoolStarter are not only highly-vetted by our team of expert analysts, but also by industry-leading expertise."
       image="/assets/images/feature.svg"
       imageAlt="First feature alt text"
     />
