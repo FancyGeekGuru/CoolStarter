@@ -9,3 +9,8 @@
   background: #0dcaf0;
   color: black;
 }
+
+.poolCardDescription {
+  mask-image:linear-gradient(to bottom, black 50%, transparent 100%);
+  -webkit-mask-image:linear-gradient(to bottom, black 50%, transparent 100%);
+}
