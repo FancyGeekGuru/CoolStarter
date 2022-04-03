@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -6,7 +8,7 @@ module.exports = {
       sm: '0.875rem',
       base: '1rem',
       lg: '1.125rem',
-      xl: '1.25rem',
+      xl: '1.125rem',
       '2xl': '1.5rem',
       '3xl': '1.875rem',
       '4xl': '2.25rem',
@@ -37,6 +39,8 @@ module.exports = {
           800: '#2d3748',
           900: '#1a202c',
         },
+        white: colors.white,
+        cyan: '#0dcaf0'
       },
       lineHeight: {
         hero: '4.5rem',

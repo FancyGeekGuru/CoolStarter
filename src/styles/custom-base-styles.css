@@ -1,0 +1,11 @@
+.enterAppBtn {
+  border: 2px solid #0dcaf0;
+  padding: theme('spacing.1') theme('spacing.2');
+  border-radius: 10px;
+}
+
+.enterAppBtn:hover {
+  transition: all 0.5s ease-out 0s;
+  background: #0dcaf0;
+  color: black;
+}

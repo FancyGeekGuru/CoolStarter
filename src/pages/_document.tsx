@@ -8,7 +8,13 @@ class MyDocument extends Document {
     return (
       <Html lang={AppConfig.locale}>
         <Head />
-        <body>
+        <body style={
+          {
+            background: `url('assets/images/Graphic-Hero-Blur.jpg')`,
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center'
+          }}>
           <Main />
           <NextScript />
         </body>
