@@ -1,22 +1,27 @@
 // import { ReactNode } from 'react';
+import Link from 'next/link'
 
 const PoolCard = () => (
-  <div className="m-3 p-8 hover:shadow-xl hover:bg-opacity-20 hover:bg-gray-800 bg-dark2 border-bg-cyan h-full hover:-translate-y-2 transform transition relative overflow-hidden card" style={{ border: "1px solid #0dcaf0" }}>
+
+  <div className="p-8 hover:shadow-xl hover:bg-opacity-20 rounded-md hover:bg-gray-800 bg-dark2 border-bg-cyan h-full hover:-translate-y-2 transform transition relative overflow-hidden card" style={{ border: "1px solid gray" }}>
+
     <div className="absolute z-0 min-w-full transform scale-150 -bottom-16 -right-1/4 opacity-30">
-      <img src="assets/images/tpad-logo-img.svg" className="opacity-5 w-full h-full" alt="Bg" />
+      <img src="/assets/images/tpad-logo-img.svg" className="opacity-5 w-full h-full" alt="Bg" />
     </div>
-    <a className="absolute top-0 left-0 h-full w-full z-10" href="/pool/drunkrobots"></a>
+    <Link href="/app/pools/details">
+      <a className="absolute top-0 left-0 h-full w-full z-10"></a>
+    </Link>
     <div className="space-y-6 flex flex-col justify-between card-body">
       <div className="space-y-3">
         <div className="flex justify-between gap-2"><div>
-          <h2 className="text-2xl font-semibold font-kgqj">Avania</h2>
+          <h2 className="text-2xl font-semibold font-sans">Avania</h2>
           <p className="text-secondary leading-none text-sm">$NOVA</p></div>
           <div className="relative">
             <div className="h-20 w-20 overflow-hidden rounded-full border-2 border-mainDark flex items-center justify-center">
-              <img className="w-full" src="assets/images/avania.jpg" alt="Avania" />
+              <img className="w-full" src="/assets/images/avania.jpg" alt="Avania" />
               <div className="absolute bg-dark1 rounded-full -bottom-1 -right-1">
                 <div className="rounded-full h-7 w-7 flex items-center justify-center bg-opacity-70 bg-acc">
-                  <img src="assets/images/bnb.svg" alt="BNB Chain" className="h-full w-full" />
+                  <img src="/assets/images/bnb.svg" alt="BNB Chain" className="h-full w-full" />
                 </div>
               </div>
               <div className="absolute top-[-5px] right-0">
@@ -24,7 +29,7 @@ const PoolCard = () => (
             </div>
           </div>
         </div>
-        <div className="pb-3">
+        {/* <div className="pb-3">
           <ul className="flex flex-wrap items-center text-main space-x-6 z-20 relative text-2xl">
             <li>
               <a href="https://t.me/drunkrobots_chat" target="_blank" className="text-main" rel="noreferrer">
@@ -63,8 +68,8 @@ const PoolCard = () => (
               </a>
             </li>
           </ul>
-        </div>
-        <div className="flex items-center space-x-3 flex-wrap">
+        </div> */}
+        {/* <div className="flex items-center space-x-3 flex-wrap">
           <span className="bg-gray-400 bg-opacity-20 text-gray-300 py-1 px-2 font-normal tracking-wider h-6 leading-4 uppercase badge badge-pill badge-secondary">Upcoming</span>
         </div>
         <div className="overflow-hidden h-[45px] poolCardDescription" >
@@ -73,7 +78,7 @@ const PoolCard = () => (
               Avania is a game where you can earn a token by contributing your talent to the game such as playing the game, awaken nexus, building community, supporting other players, supporting the game, etc. Avania will be a place to build the greatest GameFi community through well-designed gameplay. The key factor that makes Avania different from other traditional online games is the “Play to Earn” concept that takes advantage of blockchain technology. Everyone in the world can enjoy the game while also experiencing a new way of making some income.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="space-y-3">
         <div className="flex items-center justify-between">
@@ -82,7 +87,7 @@ const PoolCard = () => (
         </div>
         <div className="flex items-center justify-between">
           <span>Starts</span>
-          <span className="text-main">Apr 7, 11:00 UTC</span>
+          <span className="text-main">2 days</span>
         </div>
         <div className="flex items-center justify-between"><span>Price</span>
           <div className="text-main inline">

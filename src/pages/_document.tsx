@@ -10,7 +10,7 @@ class MyDocument extends Document {
         <Head />
         <body style={
           {
-            background: `url('assets/images/Graphic-Hero-Blur.jpg')`,
+            background: `url('/assets/images/Graphic-Hero-Blur.jpg')`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center'

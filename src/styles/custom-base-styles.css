@@ -14,3 +14,19 @@
   mask-image:linear-gradient(to bottom, black 50%, transparent 100%);
   -webkit-mask-image:linear-gradient(to bottom, black 50%, transparent 100%);
 }
+
+.inputSearch {
+  font-size: 22px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background: bottom;
+    color: white;
+}
+
+.token {
+  border: 2px solid #0dcaf0;
+  padding: theme('spacing.1') theme('spacing.2');
+  border-radius: 10px;
+  background: #0dcaf0;
+  color: black;
+}

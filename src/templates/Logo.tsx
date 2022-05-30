@@ -12,7 +12,7 @@ const Logo = (props: ILogoProps) => {
 
   return (
     <span className={`text-gray-900 inline-flex items-center ${fontStyle}`}>
-      <img src="assets/images/logo.png" style={{width: "25px"}}></img> &nbsp;
+      <img src="/assets/images/logo.png" style={{width: "25px"}}></img> &nbsp;
       {/* <svg
         className="text-primary-500 stroke-current mr-1"
         xmlns="http://www.w3.org/2000/svg"

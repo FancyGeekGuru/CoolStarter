@@ -23,7 +23,7 @@ const Hero = () => (
           </Link>
         </li>
         <li>
-          <Link href="/app">
+          <Link href="/app/pools">
             <button className="enterAppBtn text-white"> Enter App </button>
           </Link>
         </li>
